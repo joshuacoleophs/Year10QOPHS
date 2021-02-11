@@ -1,0 +1,18 @@
+#Ask for two numbers e.g. 200 then 99
+#If the first number entered is larger than the second, display the second number first and
+#then the first number (e.g. 99, 200)
+#Otherwise
+#Show the first number first and then the second
+#print("choose a number")
+
+
+number1 = int(input("choose your first number >>> "))
+number2 = int(input("choose your sencond number >>> "))
+
+if number1 >= number2:
+              print(number2)
+              print(number1)
+
+else :
+              print(number1)
+              print(number2)
