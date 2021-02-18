@@ -1,0 +1,11 @@
+#Ask the user to enter their favourite colour
+#If they enter “red”, “RED” or “Red” display the message “I like red too”
+#Otherwise
+#Display the message “I don’t like {colour}, {colour} is for losers”
+
+colour = str(input("enter a colour >>> "))
+lst = ["red", "Red", "RED"]
+if colour in lst:
+              print("i like red too")
+else:
+              print("i dont like",colour,".",colour," is for losers")
