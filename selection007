@@ -1,0 +1,15 @@
+#Ask the user to enter a number
+#If it is under 10, display the message “too low”
+#If the number is between 10 and 20, display “correct”
+#Otherwise
+#Display “too high you crazy pizza pie”
+
+number = int(input("enter a number")
+
+if number <= 10:
+             print("too low")
+elif number range(10,20):
+              print("correct")
+else:
+              print("too high crazy pie")
+
