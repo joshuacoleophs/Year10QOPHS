@@ -1,0 +1,21 @@
+#Ask the user if it is raining and convert their answer to lower case (help? Go to
+#http://www.gcsecs.com/methods.html) so it doesn’t matter that what cased they type in.
+#If they answer “yes”, ask if it is windy. If they answer “yes” to this second question,
+#display the answer “it is too windy for an umbrella”
+#Otherwise
+#Display the message “take an umbrella”, if they did not answer yes to the first questions,
+#display the answer “Enjoy your day”.
+#Hint – it is possible to put an if statement inside an if statement
+
+question1 = str(input("is it raining? >>> ")).lower()
+if question1 == "yes":
+              question2 = str(input("is it windy? >>> "))
+              if question2 == "yes":
+                                      print("it is too windy for an umbrella")
+elif question1 == "yes":
+        question3 = str(input("is it windy? >>> "))
+        if question3
+        == "no":
+                        print("take an umbrella")
+else:
+        print("have a nice day")
