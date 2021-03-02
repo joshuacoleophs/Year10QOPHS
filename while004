@@ -1,0 +1,25 @@
+#Outside the loop, create a variable that controls the loop
+#Outside the loop, create a variable called count that is set to 0
+#Inside the loop, ask for the name of somebody the user want to invite to a party
+#After this display the message “{name} has now been invited”
+#add 1 to the count
+#Ask if they want to invite somebody else (y/n)
+#Keep repeating this until they no longer want to invite anybody else to the party(enter “n”).
+#The display how many people they have invited to the party
+
+import sys
+
+
+loop = True 
+count = 0
+
+while loop == True:
+        userinvite = str(input("enter the name of a user you want to invite >>> "))
+        print(userinvite,"has been invited")
+        count + 1
+        anotheruser = str(input("do you want to invite antoher user? y/n >>> "))
+        if anotheruser == "y":
+                loop = True
+        if anotheruser == "n":
+                loop = False
+exit(sys)
