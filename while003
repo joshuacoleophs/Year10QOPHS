@@ -1,0 +1,25 @@
+#Ask the user to enter a number
+#Outside the loop, create a variable that holds the first number
+#Outside the loop create variable that stores the number entered in the step above intoa variable called “total”
+#Outside the loop, create a variable that holds the value “y”
+#Inside the loop, ask to enter another number
+#Add the two numbers together and then ask if they want to add another number.
+#If they enter “y”, ask them to enter another number and keep adding numbers untilthey do not answer “y”.
+#Once the loop has stopped, display the total
+
+import sys
+
+
+loop = True 
+while loop == True:
+        usernumber1 = int(input("enter a number >>> "))
+        usernumber2 = int(input("enter a second number >>> "))
+        total = (usernumber1 + usernumber2)
+        print(total)
+        question = str(input("do you want to enter another number y/n >>> "))
+        if question == "y":
+                loop = True
+        if question == "n":
+                loop = False
+        
+exit(sys)
