@@ -1,0 +1,17 @@
+#Set the number to 0 to start with.
+#Inside the loop, ask the user to enter a number.
+#The loop should keep asking until they enter a value over 5.
+#After the loop display the message “The last number you entered was a {number}”and stop the program.
+
+import sys 
+
+number = 0
+
+answer = True  
+while answer == True:
+        usernumber = int(input("enter a number >>> "))
+        total = (usernumber + number)
+        if total >= 5:
+                answer = False
+                print("the last number you entered was a",usernumber,)
+exit(sys)
