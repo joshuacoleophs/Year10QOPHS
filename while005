@@ -1,0 +1,23 @@
+import sys
+
+compnum = 50
+user = int(input("enter a number >>> "))
+count = 1
+
+
+loop = False
+while loop == False:
+        if user > compnum:
+                print("your answer is too high")
+                user = int(input("enter a number >>> "))
+                        
+        if user < compnum:
+                print("your answer is too low")
+                user = int(input("enter a number >>> "))
+
+        totalcount = count + 1
+
+        if user == compnum:
+                print("well done you took",totalcount,"attempts")
+                loop = True 
+exit (sys) 
