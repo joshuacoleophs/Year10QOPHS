@@ -1,0 +1,11 @@
+#Ask a user to enter their name
+#Ask a user to enter a number (as an int)
+#The code should display their name the number of times that they entered above
+#HINT: use the function “range(n,f)”
+#Where, n is a starting number and f is a finished number (f can be a variable)
+
+name = str(input("enter your name >>> "))
+number = int(input("enter a number >>> "))
+
+for i in range(number):
+  print(name)
