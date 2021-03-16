@@ -1,0 +1,7 @@
+#Ask a user to enter their name
+#Display each letter in their name as a separate line
+
+name = str(input("enter your name >>> "))
+for i in name:
+  print(i)
+  
