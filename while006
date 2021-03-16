@@ -1,0 +1,17 @@
+#Ask the user to enter a number between 10 and 20
+#If they enter a value under 10, display the message “too low” then ask them to tryagain
+#If they enter a value above 20, display the message “too high” and ask them to tryagain.
+#Ask them to “try again”
+#Keep repeating this until (while) they enter a value that is between 10 and 20 andthen display the message “thank you”
+
+num = int(input("enter a number between 10 and 20 >>> "))
+
+while not 10 <= num <= 20:
+    if num > 20:
+        print("too high")
+    if num < 10:
+        print("too low")
+
+    num = int(input("try again >>> "))
+
+print("thank you")
