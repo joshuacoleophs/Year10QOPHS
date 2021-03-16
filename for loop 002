@@ -1,0 +1,12 @@
+#Ask a user to enter their name
+#Ask a user to enter a number
+#The code should display their name the number of times that they entered above
+#Display their name 3 times
+#HINT: use the function “range(n,f)”
+#Where, n is a starting number and f is a finished number (f can be a variable)
+
+name = input("enter you name >>> ")
+number = input("enter a number >>> ")
+fullname = (name + number)
+for i in range(3):
+  print(fullname)
