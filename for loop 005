@@ -1,0 +1,8 @@
+#Ask a user to enter a number between 1 and 12
+#Display the times table for that number
+#HINThint: use the function “range(n,f)”
+#where, n is a starting number and f is a finished number (n and f can be a variable)
+
+num = int(input("enter a number between 1 and 12 >>> "))
+for i in range(13):
+  print(*num)
