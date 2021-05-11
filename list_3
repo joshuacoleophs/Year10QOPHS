@@ -1,0 +1,24 @@
+#Ask the user to enter the names of three people they want to invite to a part and store them in a list.
+#After they have entered all three names, ask them if they want to add another.
+#If they do, allow them to add more names until they answer “no”.
+#When they answer “no”, display how many people they have invited to the party
+#HINT: You will need to use the len() function
+#CREATE A NEW CODE EDITOR
+
+namelist = []
+total = 0 
+
+loop = True
+while loop == True:
+     for i in range(3):
+          names = str(input("enter the names of the people you want to invite >>> "))
+          total = (total + 1)
+          namelist.append(names)
+
+     lopo = str(input("do you want to invite more? y or n >>> "))
+     
+
+     if lopo == "n":
+          loop = False
+print("you invited ",total,"people")
+                                   
