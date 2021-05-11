@@ -1,0 +1,27 @@
+#Declare an empty array/list called “cars”
+#Set up a sentry variable and set it to true
+#Set up a while loop based on the variable above
+#In the loop ask user to “input a car brand or press x to exit”
+#If the user presses “x”, display “exiting…”
+#If the user enters a car brand, the code should loop for the next car brand, until the user enters a “x”
+#After the user presses “x” display “in the list is” and then the list
+
+import sys
+
+cars = []
+
+
+loop = True
+while loop == True:
+     car = str(input("enter a car brand or press x to exit >>> ")).lower()
+     cars.append(car)
+     
+
+     if car == 'x':
+          loop = False
+print("the list is",cars)
+print(" ")
+print("exiting...")
+print("dead.")
+
+exit (sys)
