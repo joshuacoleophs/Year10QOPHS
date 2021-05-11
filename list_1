@@ -1,0 +1,13 @@
+#Declare an empty array called “cars”
+#Ask user to enter the name of a car brand (e.g. Ford, Honda) and append this into the array
+#Ask for the user to enter in another two car brands
+#Display the array (and the 3 car brands)
+
+  
+cars=[]
+for i in range (3):
+     car = str(input("enter a car brand >>> "))
+     
+     cars.append(car)
+
+print(cars)
