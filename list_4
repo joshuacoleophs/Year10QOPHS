@@ -1,0 +1,23 @@
+#Create a list containing the titles of four TV programmes
+#Display them on separate lines
+#Ask the user to enter another show and a position they wanted it inserted into the list
+#Display the list again, showing all five TY shows in their new positions
+
+tv = ["peppa pig","friends","thomas the tank engine","bob the builder"]
+print(tv)
+
+
+print(" ")
+
+for i in tv:
+     
+     print(i)
+
+print(" ")
+
+newtv = str(input("enter another show >>> "))
+location = int(input("enter a location 0 to 4 >>> "))
+
+tv.insert(location,newtv)
+print(tv)
+
