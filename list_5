@@ -1,0 +1,22 @@
+#Create an empty array called food
+#Ask the user to input 4 types of food e.g. kebab
+#Pass the inputted food into the list
+#Display the list (on one line)
+#Ask the user which food to delete e.g. 2 will delete the second food in the array
+#Delete the chosen food as above
+#Display the array (with the chosen food now deleted)
+
+
+food=[]
+for i in range(4):
+          foodquestion = str(input("enter a type of food >>> "))
+          food.append(foodquestion)
+print(food)
+
+for i in food:
+          print(i)
+delete = str(input("enter 2 foods you want to delete >>> "))
+delete = (delete - 1)
+
+del food[delete]
+print(food)
