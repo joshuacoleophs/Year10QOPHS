@@ -1,0 +1,20 @@
+loop = True
+
+while loop == True:
+          print("league registration ")
+          firstname = str(input("enter your first name >>> "))
+          nickname = str(input("enter your nickname >>> "))
+          email = str(input("enter your email address >>> "))
+          skilllevel = str(input("enter your skill level, expert or casual >>> "))
+          verification = str(input("please confirm these detials are correct >>> "))
+          
+          if verification == 'yes':
+                    loop = False
+print(" ")
+print("please reveiw your details")
+print (" ")
+print("first name: ",firstname)
+print("nickname :",nickname)
+print("email address :",email)
+print("skill level :",skilllevel)
+print(" ")
