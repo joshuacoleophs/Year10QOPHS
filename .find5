@@ -1,0 +1,6 @@
+phone = input("enter a phone number >>> ")
+
+if phone[0] == "0":
+  print("valid phone number")
+else:
+  print("not a uk phone number")
