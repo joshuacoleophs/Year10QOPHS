@@ -1,0 +1,31 @@
+# nea task 2
+
+basePrice = 10
+
+
+loop = False
+while loop == False:
+          email = str(input("enter your email address >>> "))
+          skillLevel = str(input("enter your skill level. e for expert or c for casual >>> "))
+          country = str(input("enter your region uk/eu/au >>> "))
+          if skillLevel == 'e':
+                    if country == 'uk':
+                              country =(basePrice*1+35)
+                    elif country == 'us':
+                              country = (basePrice*1.5+35)
+                    elif country == 'au':
+                              country = (basePrice*2+35)
+          if skillLevel == 'c':
+                    if country == 'uk':
+                              country =(basePrice*1+20)
+                    elif country == 'us':
+                              country = (basePrice*1.5+20)
+                    elif country == 'au':
+                              country = (basePrice*2+20)
+
+          print("your calculated fee is",country)
+
+          another = str(input("do you want to calculate another fee? >>>"))
+          if another == 'no':
+                    print("bye!")
+                    loop = True 
