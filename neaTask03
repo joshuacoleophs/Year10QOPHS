@@ -1,8 +1,0 @@
-# nea task
-
-loop = False
-while loop == False:
-          option01 = str(input("press 1 to search for search a fixture >>> "))
-          option02 = str(input("press 2 to search for outstanding fixtures >>> "))
-          option03 = str(input("press 3 to display leaderboard >>> "))
-          
