@@ -1,0 +1,11 @@
+MyApaceCompany = []
+print(MyApaceCompany)
+input1 = str(input("enter spacecraft 1 >>> "))
+input2 = str(input("enter spacecraft 2 >>> "))
+input3 = str(input("enter spacecraft 3 >>> "))
+MyApaceCompany.append(input1)
+MyApaceCompany.append(input2)
+MyApaceCompany.append(input3)
+
+
+print(MyApaceCompany)
