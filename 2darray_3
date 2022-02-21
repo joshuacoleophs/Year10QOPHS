@@ -1,0 +1,8 @@
+stuff = [
+            ["1", "2", "3", "4"],
+            ["a", "b", "c", "d"],
+            ["I", "II", "III","IV"],
+            ]
+print(stuff)
+stuff[1][2]="Croydon"
+print(stuff)
