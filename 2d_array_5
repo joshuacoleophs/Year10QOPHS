@@ -1,0 +1,5 @@
+input1 = int(input("amount of indexes --> "))
+input2 = int(input("amount of arrays --> "))
+input3 = input("enter text --> ")
+EmptyArray = [[(input3) for column in range(input1)] for row in range(input2)]
+print(EmptyArray)
