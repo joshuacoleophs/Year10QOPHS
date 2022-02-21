@@ -1,0 +1,8 @@
+outerarray = []
+innnerarray1 = []
+innerarray2 = []
+
+print(outerarray)
+outerarray.append(innnerarray1)
+outerarray.append(innerarray2)
+print(outerarray)
