@@ -1,0 +1,6 @@
+index1 = int(input("enter array >>> "))
+index2 = int(input("enter index >>> "))
+enter1 = str(input("enter the text you want to display >>> "))
+emptyarray = [[(enter1) for column in range(index1)] for row in range(index2)]
+print(emptyarray)
+
