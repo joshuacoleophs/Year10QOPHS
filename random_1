@@ -1,0 +1,14 @@
+import sys
+input1 = input("heads or tails >>> ")
+
+while input1 == "p":
+            import random
+            x = ["heads","tails"]
+            y = random.choice(x)
+            print(y)
+            print(" ") 
+            input1 = input("heads or tails >>> ")
+            print(" ")
+else:
+            exit.sys()
+
